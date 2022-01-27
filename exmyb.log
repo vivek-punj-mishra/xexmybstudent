@@ -1,0 +1,177 @@
+2022-01-24 16:48:46,247 - exmyb_app - DEBUG - Users:CustomLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivek@123', 'user_type': 'exmyb'}
+2022-01-24 16:48:46,247 - exmyb_app - INFO - custom login with email vivekpunjmishra2016@gmail.com
+2022-01-24 16:48:46,249 - exmyb_app - ERROR - UserService:custom_login:: When initializing mapper mapped class UsersModel->users, expression 'ClientOrgProfile' failed to locate a name ('ClientOrgProfile'). If this is a class name, consider adding this relationship() to the <class 'exmyb_app.models.users_model.UsersModel'> class after both dependent classes have been defined.
+2022-01-24 16:48:46,251 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 500), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 16:57:26,180 - exmyb_app - DEBUG - Users:CustomLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivek@123', 'user_type': 'client'}
+2022-01-24 16:57:26,182 - exmyb_app - INFO - custom login with email vivekpunjmishra2016@gmail.com
+2022-01-24 16:57:26,185 - exmyb_app - ERROR - UserService:custom_login:: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'mapped class UsersModel->users'. Original exception was: When initializing mapper mapped class UsersModel->users, expression 'ClientOrgProfile' failed to locate a name ('ClientOrgProfile'). If this is a class name, consider adding this relationship() to the <class 'exmyb_app.models.users_model.UsersModel'> class after both dependent classes have been defined.
+2022-01-24 16:57:26,191 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 500), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 17:13:17,727 - exmyb_app - DEBUG - Users:CustomLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivek@123', 'user_type': 'client'}
+2022-01-24 17:13:17,729 - exmyb_app - INFO - custom login with email vivekpunjmishra2016@gmail.com
+2022-01-24 17:13:17,732 - exmyb_app - ERROR - UserService:custom_login:: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'mapped class UsersModel->users'. Original exception was: When initializing mapper mapped class UsersModel->users, expression 'ClientOrgProfile' failed to locate a name ('ClientOrgProfile'). If this is a class name, consider adding this relationship() to the <class 'exmyb_app.models.users_model.UsersModel'> class after both dependent classes have been defined.
+2022-01-24 17:13:17,738 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 500), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 17:20:10,153 - exmyb_app - DEBUG - Users:CustomLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivek@123', 'user_type': 'client'}
+2022-01-24 17:20:10,154 - exmyb_app - INFO - custom login with email vivekpunjmishra2016@gmail.com
+2022-01-24 17:20:10,155 - exmyb_app - ERROR - UserService:custom_login:: When initializing mapper mapped class UsersModel->users, expression 'ClientOrgProfile' failed to locate a name ('ClientOrgProfile'). If this is a class name, consider adding this relationship() to the <class 'exmyb_app.models.users_model.UsersModel'> class after both dependent classes have been defined.
+2022-01-24 17:20:10,157 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 500), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 18:52:36,469 - exmyb_app - DEBUG - Users:CustomLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivek@123', 'user_type': 'client'}
+2022-01-24 18:52:36,470 - exmyb_app - INFO - custom login with email vivekpunjmishra2016@gmail.com
+2022-01-24 18:52:36,490 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 400), ('duration', 0.02), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 18:58:38,907 - exmyb_app - DEBUG - Users:CustomLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivek@123', 'user_type': 'client'}
+2022-01-24 18:58:38,908 - exmyb_app - INFO - custom login with email vivekpunjmishra2016@gmail.com
+2022-01-24 18:58:38,937 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 400), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 19:02:40,417 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivek@123', 'user_type': 'client', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': '91', 'mobile_number': '8574389310'}
+2022-01-24 19:02:50,536 - exmyb_app - ERROR - UserService:generate_otp_email:: Could not connect to the endpoint URL: "https://email.ap-south-1.amazonaws.com/"
+2022-01-24 19:02:50,570 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 500), ('duration', 10.15), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 19:18:31,645 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivek@123', 'user_type': 'client', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': '91', 'mobile_number': '8574389310'}
+2022-01-24 19:18:31,670 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 400), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 20:19:11,068 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': '91', 'mobile_number': '9454442094'}
+2022-01-24 20:19:18,003 - exmyb_app - ERROR - UserService:generate_otp_email:: Could not connect to the endpoint URL: "https://email.ap-south-1.amazonaws.com/"
+2022-01-24 20:19:18,020 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 500), ('duration', 6.95), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 20:49:01,112 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': '91', 'mobile_number': '9454442094'}
+2022-01-24 20:49:01,134 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 400), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 21:02:31,406 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': '91', 'mobile_number': '9454442094'}
+2022-01-24 21:02:31,438 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 400), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 21:05:39,093 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': None, 'mobile_number': None}
+2022-01-24 21:05:39,107 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 403), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 21:27:42,105 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': None, 'mobile_number': None}
+2022-01-24 21:27:42,123 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 403), ('duration', 0.02), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 21:31:45,113 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': None, 'mobile_number': None}
+2022-01-24 21:31:45,131 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 403), ('duration', 0.02), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 21:38:05,944 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': None, 'mobile_number': None}
+2022-01-24 22:04:20,789 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': None, 'mobile_number': None}
+2022-01-24 23:47:51,231 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'vendor', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': None, 'mobile_number': None}
+2022-01-24 23:47:52,195 - exmyb_app - INFO - Amazon SES Sucess: 0109017e8d4f0239-2d87d1bf-08ce-4d2b-9bf0-ef0401e6ec93-000000
+2022-01-24 23:47:52,255 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 201), ('duration', 1.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-24 23:53:19,010 - exmyb_app - DEBUG - Users:ValidateEmailOTP::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'otp': '6430', 'user_type': 'vendor'}
+2022-01-24 23:53:19,039 - exmyb_app - INFO - OTP Expire Now Time:2022-01-24 18:23:19.039330
+2022-01-24 23:53:19,040 - exmyb_app - INFO - OTP Time:2022-01-24 18:17:51
+2022-01-24 23:53:19,041 - exmyb_app - INFO - OTP Time min:5
+2022-01-24 23:53:19,072 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/validate_email/otp'), ('status', 201), ('duration', 0.06), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-25 00:04:17,031 - exmyb_app - INFO - fetch user: 1
+2022-01-25 00:04:17,044 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-25 18:57:43,673 - exmyb_app - INFO - ResendEmailMobileOTP::post::params::{'mobile_number': None, 'country_code': None, 'email': 'vivekpunjmishra2016@gmail.com', 'user_type': 'vendor'}
+2022-01-25 18:57:54,876 - exmyb_app - INFO - Amazon SES Sucess: 0109017e916beaf2-2c6d7ba7-a7a9-4def-b6f1-a1b7a5510861-000000
+2022-01-25 18:57:54,939 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/resend_otp'), ('status', 201), ('duration', 11.27), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-25 19:32:45,119 - exmyb_app - DEBUG - Users:ForgotPassword::post::params::{'email': 'vivekpunjmishra2016@gmail.com'}
+2022-01-25 19:32:50,637 - exmyb_app - INFO - Amazon SES Sucess: 0109017e918bdfa5-61866bd0-0ca1-4d75-b824-5c96e163303e-000000
+2022-01-25 19:32:50,663 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/forgot_password'), ('status', 201), ('duration', 5.55), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-25 23:33:57,909 - exmyb_app - DEBUG - Users:ForgotPassword::post::params::{'email': 'vivekpunjmishra2016@gmail.com'}
+2022-01-25 23:35:00,905 - exmyb_app - INFO - Amazon SES Sucess: 0109017e926998c7-dd81d07e-fb9c-4b54-a258-a0512ba5a6c1-000000
+2022-01-25 23:35:00,951 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/forgot_password'), ('status', 201), ('duration', 63.04), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 00:38:20,106 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/exmyb/user'), ('status', 401), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 00:41:36,396 - exmyb_app - DEBUG - Users:CreateExmybUser::post::params::{'first_name': 'VivekPunj', 'last_name': 'Mishra', 'email': 'vivekpunjmishra2016@gmail.com', 'country_code': '+91', 'mobile_number': '9454442094', 'designation': None, 'user_type': None}
+2022-01-26 00:41:36,399 - exmyb_app - INFO - CreateExmybUser::post:user_id 1
+2022-01-26 00:41:36,401 - exmyb_app - INFO - UserService:create_exmyb_user:data: {'first_name': 'VivekPunj', 'last_name': 'Mishra', 'email': 'vivekpunjmishra2016@gmail.com', 'country_code': '+91', 'mobile_number': '9454442094', 'designation': None}
+2022-01-26 00:41:36,420 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/exmyb/user'), ('status', 400), ('duration', 0.04), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 00:45:33,345 - exmyb_app - DEBUG - Users:CreateExmybUser::post::params::{'first_name': 'VivekPunj', 'last_name': 'Mishra', 'email': 'vivekpunjmishra2016@gmail.com', 'country_code': '+91', 'mobile_number': '9454442094', 'designation': None, 'user_type': None}
+2022-01-26 00:45:33,348 - exmyb_app - INFO - CreateExmybUser::post:user_id 1
+2022-01-26 00:45:33,350 - exmyb_app - INFO - UserService:create_exmyb_user:data: {'first_name': 'VivekPunj', 'last_name': 'Mishra', 'email': 'vivekpunjmishra2016@gmail.com', 'country_code': '+91', 'mobile_number': '9454442094', 'designation': None}
+2022-01-26 00:45:33,375 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/exmyb/user'), ('status', 400), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:00:58,190 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user/change_password'), ('status', 401), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:01:41,175 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user/change_password'), ('status', 401), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:02:00,220 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user/change_password'), ('status', 401), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:18:16,891 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/vendor'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:18:34,302 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/1'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:19:11,815 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/'), ('status', 404), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:20:52,083 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/select * from user'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:27:28,241 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/VivekPunj'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:27:44,151 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/vendor'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:29:43,048 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/vendor'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 01:39:58,164 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/vendor'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 14:36:42,024 - exmyb_app - INFO - ResendEmailMobileOTP::post::params::{'mobile_number': None, 'country_code': None, 'email': 'vivekpunjmishra2016@gmail.com', 'user_type': 'vendor'}
+2022-01-26 14:36:43,603 - exmyb_app - INFO - Amazon SES Sucess: 0109017e95a321cb-6cc530c2-f85a-4549-a6bf-aed1df6c40e4-000000
+2022-01-26 14:36:43,683 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/resend_otp'), ('status', 201), ('duration', 1.66), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 14:38:16,712 - exmyb_app - DEBUG - Users:ValidateEmailOTP::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'otp': '5787', 'user_type': 'vendor'}
+2022-01-26 14:38:16,719 - exmyb_app - INFO - OTP Expire Now Time:2022-01-26 09:08:16.719726
+2022-01-26 14:38:16,720 - exmyb_app - INFO - OTP Time:2022-01-26 09:06:44
+2022-01-26 14:38:16,721 - exmyb_app - INFO - OTP Time min:1
+2022-01-26 14:38:16,768 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/validate_email/otp'), ('status', 201), ('duration', 0.06), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 14:39:10,495 - exmyb_app - INFO - fetch user: 1
+2022-01-26 14:39:10,500 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user'), ('status', 200), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 14:46:09,455 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 14:46:09,457 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 14:46:09,953 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.5), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 16:30:06,187 - exmyb_app - INFO - ResendEmailMobileOTP::post::params::{'mobile_number': None, 'country_code': None, 'email': 'vivekpunjmishra2016@gmail.com', 'user_type': 'vendor'}
+2022-01-26 16:30:15,189 - exmyb_app - ERROR - UserService:_regenerate_email_otp:: Could not connect to the endpoint URL: "https://email.ap-south-1.amazonaws.com/"
+2022-01-26 16:30:15,205 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/resend_otp'), ('status', 500), ('duration', 9.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 20:10:53,751 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 20:10:54,071 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 20:10:54,562 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.82), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 20:13:40,093 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/vendor'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 20:14:52,073 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/vendor'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 20:15:03,631 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user_search/vendor'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:31:15,535 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user/<user_id>'), ('status', 401), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:32:02,119 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user/<user_id>'), ('status', 401), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:32:14,919 - exmyb_app - INFO - fetch user: 1
+2022-01-26 21:32:14,951 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user/1'), ('status', 200), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:39:03,528 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 21:39:03,532 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 21:39:03,548 - exmyb_app - ERROR - UserService:google_login::error: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /tokeninfo?id_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000161D14F22E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2022-01-26 21:39:03,553 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 500), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:44:43,244 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 21:44:43,247 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 21:44:43,696 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.46), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:44:53,735 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 21:44:53,736 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 21:44:54,688 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.95), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:45:58,618 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 21:45:58,620 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 21:45:59,081 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.47), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:55:13,490 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 21:55:13,491 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 21:55:13,947 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.46), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 21:57:38,426 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 21:57:38,428 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 21:57:38,826 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.4), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 22:18:19,721 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 22:18:19,723 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 22:18:20,189 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.47), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 22:19:13,883 - exmyb_app - DEBUG - SocialLogin::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'access_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY0MzE4ODA5NiwianRpIjoiNTAzNWUwMWQtN2I0Ny00YzQ2LTk2M2MtNzUxN2FhNDNmNzIyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjEiLCJuYmYiOjE2NDMxODgwOTZ9.Kh2R0ftJraKmGgXFk3SYobbQbt3M_iOyNkWvHj5lDu4', 'user_type': 'vendor', 'social_type': 'google'}
+2022-01-26 22:19:13,884 - exmyb_app - INFO - UserService:google_login::email vivekpunjmishra2016@gmail.com
+2022-01-26 22:19:14,330 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/social_login'), ('status', 401), ('duration', 0.45), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 22:43:07,610 - exmyb_app - INFO - VerifyMobEmail::post:type email
+2022-01-26 22:43:07,614 - exmyb_app - INFO - VerifyMobEmail::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'country_code': '+91', 'mobile_number': '9454442094'}
+2022-01-26 22:43:07,615 - exmyb_app - INFO - VerifyMobEmail::post:id 1
+2022-01-26 22:43:19,603 - exmyb_app - ERROR - UserService:generate_otp_email:: Could not connect to the endpoint URL: "https://email.ap-south-1.amazonaws.com/"
+2022-01-26 22:43:19,606 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/verify'), ('status', 500), ('duration', 12.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 22:45:10,511 - exmyb_app - INFO - VerifyMobEmail::post:type email
+2022-01-26 22:45:10,514 - exmyb_app - ERROR - VerifyMobEmail::get:error: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2022-01-26 22:45:10,517 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/verify'), ('status', 500), ('duration', 0.01), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 22:45:20,233 - exmyb_app - INFO - VerifyMobEmail::post:type email
+2022-01-26 22:45:20,237 - exmyb_app - INFO - VerifyMobEmail::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'country_code': '+91', 'mobile_number': '9454442094'}
+2022-01-26 22:45:20,238 - exmyb_app - INFO - VerifyMobEmail::post:id 1
+2022-01-26 22:45:29,856 - exmyb_app - ERROR - UserService:generate_otp_email:: Could not connect to the endpoint URL: "https://email.ap-south-1.amazonaws.com/"
+2022-01-26 22:45:29,860 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/verify'), ('status', 500), ('duration', 9.63), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-26 22:49:37,005 - exmyb_app - INFO - VerifyMobEmail::post:type email
+2022-01-26 22:49:37,009 - exmyb_app - INFO - VerifyMobEmail::post::params::{'email': 'vivekpunjmishra2016@gmail.com', 'country_code': '+91', 'mobile_number': '9454442094'}
+2022-01-26 22:49:37,010 - exmyb_app - INFO - VerifyMobEmail::post:id 1
+2022-01-26 22:49:43,373 - exmyb_app - ERROR - UserService:generate_otp_email:: Could not connect to the endpoint URL: "https://email.ap-south-1.amazonaws.com/"
+2022-01-26 22:49:43,374 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/verify'), ('status', 500), ('duration', 6.37), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-27 14:09:06,403 - exmyb_app - DEBUG - Users:CustomSignup::post::params::{'email': 'vivekpunjmishra@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'client', 'first_name': 'VivekPunj', 'last_name': 'Mishra', 'country_code': None, 'mobile_number': None}
+2022-01-27 14:09:07,823 - exmyb_app - INFO - Amazon SES Sucess: 0109017e9ab03c40-9f847762-eafd-4996-a55e-0a7b2a654241-000000
+2022-01-27 14:09:07,875 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user/signup'), ('status', 201), ('duration', 1.48), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-27 14:14:40,697 - exmyb_app - DEBUG - Users:ValidateEmailOTP::post::params::{'email': 'vivekpunjmishra@gmail.com', 'otp': '5915', 'user_type': 'client'}
+2022-01-27 14:14:40,715 - exmyb_app - INFO - OTP Expire Now Time:2022-01-27 08:44:40.715817
+2022-01-27 14:14:40,716 - exmyb_app - INFO - OTP Time:2022-01-27 08:39:07
+2022-01-27 14:14:40,718 - exmyb_app - INFO - OTP Time min:5
+2022-01-27 14:14:40,760 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/validate_email/otp'), ('status', 201), ('duration', 0.07), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-27 14:19:19,474 - exmyb_app - INFO - fetch user: 2
+2022-01-27 14:19:19,494 - exmyb_app - INFO - [('method', 'GET'), ('path', '/api/v1/user'), ('status', 200), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-27 14:30:26,559 - exmyb_app - ERROR - Users:CustomLogin:post:: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2022-01-27 14:30:26,564 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 500), ('duration', 0.0), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-27 14:35:06,442 - exmyb_app - DEBUG - Users:CustomLogin::post::params::{'email': 'vivekpunjmishra@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'client'}
+2022-01-27 14:35:06,445 - exmyb_app - INFO - custom login with email vivekpunjmishra@gmail.com
+2022-01-27 14:35:06,614 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 201), ('duration', 0.17), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-27 14:35:30,101 - exmyb_app - DEBUG - Users:CustomLogin::post::params::{'email': 'vivekpunjmishra@gmail.com', 'password': 'Vivekpunj@123', 'user_type': 'client'}
+2022-01-27 14:35:30,102 - exmyb_app - INFO - custom login with email vivekpunjmishra@gmail.com
+2022-01-27 14:35:30,236 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/user'), ('status', 201), ('duration', 0.14), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-27 15:02:35,236 - exmyb_app - INFO - VerifyMobEmail::post:type email
+2022-01-27 15:02:35,239 - exmyb_app - INFO - VerifyMobEmail::post::params::{'email': 'vivekpunjmishra@gmail.com', 'country_code': '+91', 'mobile_number': '8574389310'}
+2022-01-27 15:02:35,240 - exmyb_app - INFO - VerifyMobEmail::post:id 1
+2022-01-27 15:02:35,263 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/verify'), ('status', 400), ('duration', 0.03), ('ip', '127.0.0.1'), ('host', 'localhost')]
+2022-01-27 15:08:29,728 - exmyb_app - INFO - VerifyMobEmail::post:type email
+2022-01-27 15:08:29,736 - exmyb_app - INFO - VerifyMobEmail::post::params::{'email': 'vivekpunjmishra@gmail.com', 'country_code': '+91', 'mobile_number': '8574389310'}
+2022-01-27 15:08:29,738 - exmyb_app - INFO - VerifyMobEmail::post:id 2
+2022-01-27 15:08:32,714 - exmyb_app - ERROR - UserService:generate_otp_email:: Could not connect to the endpoint URL: "https://email.ap-south-1.amazonaws.com/"
+2022-01-27 15:08:32,717 - exmyb_app - INFO - [('method', 'POST'), ('path', '/api/v1/email/verify'), ('status', 500), ('duration', 2.99), ('ip', '127.0.0.1'), ('host', 'localhost')]
